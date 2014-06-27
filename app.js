@@ -4,8 +4,6 @@
  */
 
 var express = require('express');
-var routes = require('./routes');
-var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var _ = require('underscore');
@@ -14,7 +12,6 @@ var app = express();
 
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
-
 
 // all environments
 app.set('port', process.env.PORT || 3000);
