@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #00caff;
+}
+
+::-webkit-input-placeholder {
+   color: #00caff;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  width: 70vw;
+  height: 20vh;
+  background-color: #CCC;
+  margin: 10vw;
+  padding: 5vw;
+  font-size: 20vw;
+  text-align: center;
+  background: white;
+  border: none;
+}
+
+body div.mobile{
+  display: none;
+}
+body.mobile div.desktop {
+  display: none;
+}
+body.mobile div.mobile {
+  display: block;
+}
+
+h1 {
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+}
+h1 span {
+  display: block;
+  font-size: 20vw;
+}
+h2 {
+  font-size: 15vw;
+  color: white;
+  text-align: center;
+}
+small {
+  font-size: 1.2vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+div.synced
+, form.synced {
+  display: none;
+}
+body.synced .synced {
+  display: block;
+}
+body.synced .nosynced {
+  display: none;
+}
+
+button {
+  width: 28%;
+  background-color: #f2b635;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 50px;
+  margin: 2%;
+}
+button.red {
+  background-color: #f25648;
+}
+button.blue {
+  background-color: #00a0e6;
+}
+
+div.mobile h1 {
+  padding: 10px;
+}
+div.mobile h2 {
+  padding: 10px;
+  font-size: 8vw;
+}
+

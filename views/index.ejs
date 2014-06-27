@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+
+  <div class="desktop">
+    <div class="nosynced">
+      <h1>Your token is <span></span> <small>open this site on your mobile phone and type this token</small></h1>
+    </div>
+
+    <div class="synced">
+      <h2>ready! <small>choose a color to send to your phone</small></h2>
+      <button class="red" data-color="#f25648">red</button>
+      <button class="blue" data-color="#00a0e6">blue</button>
+      <button class="yellow" data-color="#f2b635">yellow</button>
+    </div>
+  </div>
+  <div class="mobile">
+    <form class="nosynced">
+      <input placeholder="token" />
+    </form>
+    <div class="synced">
+      <h1>Synced!</h1>
+      <h2>Touch on screen to select a color</h2>
+    </div>
+    .
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/javascripts/main.js"></script>
+</body>
+</html>
